@@ -101,7 +101,7 @@ const Login = () => {
                                     name="email"
                                     value={form.email}
                                     onChange={(e) => handleEmail(e)}
-                                    onMouseUp={resetFileds}
+                                    onClick={resetFileds}
                                     required
                                 />
                                 
@@ -116,7 +116,7 @@ const Login = () => {
                                       name="password"
                                       value={form.password}
                                       onChange={(e) => handlePassword(e)}
-                                      onMouseUp={resetFileds}
+                                      onClick={resetFileds}
                                       placeholder='Password'
                                       required  
                                 />
